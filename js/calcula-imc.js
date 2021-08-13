@@ -15,10 +15,10 @@ for(var i = 0; i < pacientes.length ; i++){
     var peso = tdPeso.textContent;
     var altura = tdAltura.textContent;
 
-    var alturaEhValida = true;
+    var alturaEhValida = validaPeso(peso); //true or false
     var pesoEhValido = true;
 
-    if(peso <= 0 || peso >= 1000){
+    if(!pesoEhValido){
         console.log("Peso inválido");
         tdImc.textContent = "Peso inválido!";
         pesoEhValido = false;
@@ -41,6 +41,20 @@ for(var i = 0; i < pacientes.length ; i++){
         tdImc.textContent = imc;
     }
 }
+
+function validaPeso(peso){
+    if(peso >= 0 && peso < 1000){
+        return true;
+    }else{
+        return false;
+    }
+
+}
+
+
+
+
+
     function calculaImc(peso, altura){
         var imc = 0;
 
@@ -48,6 +62,4 @@ for(var i = 0; i < pacientes.length ; i++){
 
         return imc.toFixed(2);
     }
-
-
 
