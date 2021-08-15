@@ -9,6 +9,15 @@ botaoAdicionar.addEventListener("click", function(event) {
     var paciente =  obtemPacienteDoFormulario(form);
 
     var pacienteTr = montaTr(paciente);
+     var pacienteTr = validapaciente = montaTr(paciente);
+     var erro = validapaciente(paciente);
+
+     if(erro.lenght > 0){
+         var mensagemErro = document.querySelector("#mensagem-erro");
+         mensagemErro.textContent = erro;
+
+         return;
+     }
 
     var tabela = document.querySelector("#tabela-pacientes");
 
@@ -50,3 +59,10 @@ function montaTd(dado,classe){
     return td;
 }
 
+function validapaciente(paciente){
+    if(validaPeso(paciente.peso)){
+        return "";
+    }else{
+        return false;
+    }
+}
