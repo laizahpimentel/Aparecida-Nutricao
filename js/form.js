@@ -66,3 +66,5 @@ function validapaciente(paciente){
         return false;
     }
 }
+
+/* teste commit */
