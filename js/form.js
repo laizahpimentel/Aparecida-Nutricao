@@ -67,4 +67,4 @@ function validapaciente(paciente){
     }
 }
 
-/* teste commit */
+/* teste commit 2 */

@@ -71,3 +71,5 @@ function validaAltura(altura){
         return imc.toFixed(2);
     }
 }
+
+/* teste de commits */
