@@ -67,4 +67,8 @@ function validapaciente(paciente){
     }
 }
 
+<<<<<<< HEAD
 /* teste commit 3 */
+=======
+/* teste commit 2 */
+>>>>>>> bugs
