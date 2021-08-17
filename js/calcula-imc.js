@@ -72,8 +72,4 @@ function validaAltura(altura){
     }
 }
 
-<<<<<<< HEAD
-/* teste de commits3 */
-=======
-/* teste de commits */
->>>>>>> bugs
+
