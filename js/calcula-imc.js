@@ -72,4 +72,4 @@ function validaAltura(altura){
     }
 }
 
-/* teste de commits */
+/* branch/bugs */
