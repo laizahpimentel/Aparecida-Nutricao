@@ -65,4 +65,3 @@ function validaAltura(altura){
     }
 }
 
-/* branch/bugs */
