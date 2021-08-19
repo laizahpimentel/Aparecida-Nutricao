@@ -134,4 +134,16 @@ button[disabled=disabled], button:disabled {
 }
 
 
+<<<<<<< HEAD
 
+=======
+.paciente-invalido{
+	background-color: lightcoral;
+}
+
+
+#mensagens-erro{
+	color: red;
+}
+/* branch/bugs  */
+>>>>>>> bugs
