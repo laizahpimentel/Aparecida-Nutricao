@@ -28,7 +28,7 @@ for(var i = 0; i < pacientes.length ; i++){
     if(!alturaEhValida){
         console.log("Altura Inválida!");
         alturaEhValida = false;
-        tdImc.textContent = "Peso Inválido!";
+        tdImc.textContent = "Altura Inválida!!";
         paciente.classList.add("paciente-invalido");
     }
 
@@ -37,13 +37,6 @@ for(var i = 0; i < pacientes.length ; i++){
         tdImc.textContent = imc;
     }    
 
-
-    if(pesoEhValido && alturaEhValida){
-        var imc = calculaImc(peso, altura);
-        tdImc.textContent = imc;
-    }else{
-        tdImc.textContent = "Altura e/ou peso inválidos!";
-    }
 }
 
 function validaPeso(peso){
