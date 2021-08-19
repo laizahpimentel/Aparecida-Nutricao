@@ -134,9 +134,6 @@ button[disabled=disabled], button:disabled {
 }
 
 
-<<<<<<< HEAD
-
-=======
 .paciente-invalido{
 	background-color: lightcoral;
 }
@@ -146,4 +143,3 @@ button[disabled=disabled], button:disabled {
 	color: red;
 }
 /* branch/bugs  */
->>>>>>> bugs

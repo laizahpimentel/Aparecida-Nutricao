@@ -65,8 +65,4 @@ function validaAltura(altura){
     }
 }
 
-<<<<<<< HEAD
 
-=======
-/* branch/bugs */
->>>>>>> bugs

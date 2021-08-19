@@ -82,8 +82,6 @@ function validapaciente(paciente){
         erros.push("O nome não pode estar em branco!");
     }
 
-<<<<<<< HEAD
-=======
     if(!validaPeso(paciente.peso)){
         erros.push("Peso é inválido!");
     }
@@ -104,5 +102,4 @@ function validapaciente(paciente){
         erros.push("A altura não pode ser em branco!");
     }
 }
-/* branch/bugs */
->>>>>>> bugs
+
