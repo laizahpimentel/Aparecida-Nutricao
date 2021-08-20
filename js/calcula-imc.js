@@ -65,7 +65,3 @@ function validaAltura(altura){
     }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bugs
