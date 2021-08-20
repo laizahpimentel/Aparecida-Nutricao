@@ -7,17 +7,16 @@ botaoAdicionar.addEventListener("click", function(event) {
     var form = document.querySelector("#form-adiciona");
     
     var paciente =  obtemPacienteDoFormulario(form);
-
-    var pacienteTr = montaTr(paciente);
+    
     
      var pacienteTr = validapaciente = montaTr(paciente);
      
      var erros = validapaciente(paciente);
      console.log(erros);
-    if(erros.length > 0){
+     if(erros.length > 0){
          exibeMensagensDeErro(erros);
 
-         return;
+         return erros;
      }
 
     var tabela = document.querySelector("#tabela-pacientes");
@@ -102,4 +101,7 @@ function validapaciente(paciente){
         erros.push("A altura não pode ser em branco!");
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bugs
