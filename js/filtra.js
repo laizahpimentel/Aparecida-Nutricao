@@ -22,8 +22,4 @@ campoFiltro.addEventListener("input", function(){
 
             }
     }
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> bugs
