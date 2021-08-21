@@ -1,5 +1,4 @@
  
-
 var titulo = document.querySelector(".titulo");
 titulo.textContent = "Aparecida Nutricionista";
 
@@ -33,7 +32,7 @@ for(var i = 0; i < pacientes.length ; i++){
     }
 
     if(pesoEhValido && alturaEhValida){
-        var imc = peso / ( altura * altura);    
+        var imc = calculaImc(peso, altura);
         tdImc.textContent = imc;
     }    
 
@@ -55,14 +54,17 @@ function validaAltura(altura){
         return false;
     }
 
-
-    function calculaImc(peso, altura){
-        var imc = 0;
-
-        imc = peso / (altura * altura);
-
-        return imc.toFixed(2);
-    }
 }
 
+function calculaImc(peso, altura){
+    var imc = 0;
 
+    imc = peso / (altura * altura);
+
+    return imc.toFixed(2);
+}
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> bugs
