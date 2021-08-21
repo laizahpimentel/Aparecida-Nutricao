@@ -22,4 +22,4 @@ campoFiltro.addEventListener("input", function(){
 
             }
     }
-})
+});
